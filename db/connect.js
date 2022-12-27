@@ -6,5 +6,5 @@ const connectDB = (url) => {
     useUnifiedTopology: true,
   });
 };
-Mongoose.set('strictQuery', true)
+mongoose.set('strictQuery', true)
 module.exports = connectDB;
